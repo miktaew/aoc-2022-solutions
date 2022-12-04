@@ -10,14 +10,7 @@ function day4() {
     ).length;
 
     const part_2 = data.filter(
-        pair => 
-            pair[0][0] <= pair[1][0] && pair[0][1] >= pair[1][0]
-            ||
-            pair[0][0] >= pair[1][0] && pair[0][1] <= pair[1][1]
-            ||
-            pair[0][0] <= pair[1][1] && pair[0][1] >= pair[1][1]
-            || 
-            pair[1][0] >= pair[0][0] && pair[1][1] <= pair[0][1]
+        pair => pair[0][0] <= pair[1][1] && pair[0][1] >= pair[1][0]
     ).length;
 
     return {"part 1": part_1,
