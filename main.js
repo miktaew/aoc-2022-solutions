@@ -9,5 +9,6 @@ const day8 = require('./day8/day8.js');
 const day9 = require('./day9/day9.js');
 const day10 = require('./day10/day10.js');
 const day11 = require('./day11/day11.js');
+const day12 = require('./day12/day12.js');
 
-console.log(day11());
+console.log(day12());
